@@ -1,0 +1,485 @@
+@media screen and (max-width: 767px) {
+    
+    /*Бегущая строка*/
+.advert {
+    display: none;
+}
+
+.advert1 {
+    display: none;
+    
+}
+#left_arrow {
+    display: none;}
+
+#right_arrow {
+    display: none;
+}
+
+.arrow {
+    display: none;}
+/*Бегущая строка*/
+
+/*Верхняя строка контактов*/
+.contacts_up {
+    background-color: #F7EBE5;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100vw;
+}
+
+.infobox {
+    display: grid;
+    grid-column: 1 / 3;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.p_hide {
+    grid-column: 1 / 2;
+    align-items: center;
+    justify-self: start;
+}
+
+.logo_hide {
+    grid-column: 2 / 3;
+    align-items: center;
+    justify-self: center;
+}
+
+#logo_hide {
+    height: 48px;
+    align-items: center;
+    justify-items: center;
+    }
+
+.p_infobox {
+    display: none;
+}
+
+.city {
+    display: none;
+}
+
+.number {
+    display: none;
+}
+
+.cart {
+    grid-column: 3 / 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.socials {
+    display: none;
+}
+/*Верхняя строка контактов*/
+
+/*Меню*/
+.menu {
+    display: none;
+    
+}
+
+/*Меню*/
+
+/*Основное*/
+    .main_part {
+    display: grid;
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    grid-template-columns: 100vw;
+    gap: 1rem;
+    max-width: 100vw;
+}
+
+    /*Основная картинка*/
+    #main_photo2 {
+    width: 100vw;
+    align-self: center;
+    justify-self: center;
+}
+
+    #main_photo {
+    display: none;
+    }
+    /*Основная картинка*/
+
+/*Предложения*/
+.options {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-self: start;
+    justify-content: stretch;
+    width: 100vw;
+}
+
+.option_logo {
+    display: none;
+}
+
+.span_hide {
+    display: none;
+}
+
+.option1 {
+    width: max-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: start;
+    margin:auto;
+    display: grid;
+    justify-items: stretch;
+    align-items: start;
+    text-align: start;
+
+}
+
+.option2 {
+    width: max-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: start;;
+}
+
+.option3 {
+    width: max-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+
+}
+
+.option4 {
+    width: max-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+
+}
+
+.option5 {
+    width: max-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+
+}
+
+.option6 {
+    width: max-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    margin:auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: start;
+
+}
+/*Предложения*/
+
+/*Акции*/
+.sale {
+    display: grid;
+    grid-template-rows: 50px max-content max-content;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-self: center;
+    width: 100vw;
+    margin: auto;
+}
+
+#h2_sale {
+    grid-row: 1 / 2;
+    justify-self: center;
+}
+
+.sale_option {
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.sale_option2, .sale_option3, .sale_option4 {
+    display: none;
+}
+
+#gallery_sale{
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+}
+/*Акции*/
+
+/*Ближайшие праздники*/
+.holidays {
+    display: grid;
+    grid-template-rows: 50px max-content;
+    grid-template-columns: 100vw;
+    margin: auto;
+    gap: 1rem;
+    justify-self: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+#h2_holidays {
+    grid-row: 1 / 2;
+    justify-self: center;
+    text-align: center;
+}
+
+.option_holidays {
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+#backline {
+    display: none;
+}
+/*Ближайшие праздники*/
+
+/*Популярные наборы*/
+.popular {
+    display: grid;
+    grid-template-rows: 50px max-content max-content 50px;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-self: center;
+    width: 100vw;
+    margin: auto;
+}
+
+#h2_popular {
+    grid-row: 1 / 2;
+    justify-self: center;
+}
+
+#all_options {
+    grid-row: 4 / 5;
+    justify-self: center;
+    border: 1px solid #4E9DD3;
+    border-radius: 3px;
+    width: 293px;
+    height: 52px;
+    background-color: white;
+}
+
+.option_popular {
+    grid-row: 2 / 3;
+    display: grid;
+    height: min-content;
+    gap: 1rem;
+}
+.option_popular2 {
+    grid-row: 3 / 4;
+    display: grid;
+    height: min-content;
+    gap: 1rem;
+}
+
+.option_popular3, .option_popular4, .option_popular5, .option_popular6  {
+    display: none;
+}
+
+.price {
+    display: none;
+    }
+
+    .to_cart {
+    display: none;
+    }
+
+    .description {
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    /*Популярные наборы*/
+
+
+    /*Новости*/
+        .news {
+            display: grid;
+            grid-template-rows: 50px 1fr 50px;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            justify-self: center;
+            width: 100vw;
+            margin-left: auto;
+            justify-items: center;
+        }
+        
+        .h2_news {
+            grid-row: 1 / 2;
+            grid-column: 1 / 3;
+            justify-self: center;
+        }
+        
+        .option_news {
+            grid-row: 2 / 3;
+            justify-self: center;
+            align-self: center;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        #option_news2 {
+            display: none;
+        }
+        #option_news3 {
+            display: none;
+        }
+
+        #all_news {
+            grid-row: 3 / 4;
+        
+            justify-self: center;
+            border: 1px solid #4E9DD3;
+            border-radius: 3px;
+            width: 293px;
+            height: 52px;
+            background-color: white;
+        }
+    /*Новости*/
+/*Основное*/
+
+/*Мы позаботились*/
+    .extra {
+        display: grid;
+        grid-template-rows: 50px 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        justify-self: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .h2_extra {
+        grid-row: 1 / 2;
+        
+        justify-self: center;
+    }
+
+    .option_extra {
+        grid-row: 2 / 3;
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        width: min-content;
+    }
+
+    .option_extra2 {
+        grid-row: 3 / 4;
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .option_extra3 {
+        grid-row: 4 / 5;
+        
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .option_extra4 {
+        grid-row: 5 / 6;
+        
+        justify-self: center;
+        align-self: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+/*Мы позаботились*/
+
+/*Футер*/
+.lower_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-self: center;
+    width: 100vw;
+    margin: auto;
+    justify-content: center;
+    background-color: #EBEDEE;
+}
+
+#info_footer, #catalog_footer, #business_footer {
+    display: none;
+}
+
+.options_footer {
+    
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;;
+}
+
+#contacts {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: center;
+    
+}
+/*Футер*/
+
+
+}
